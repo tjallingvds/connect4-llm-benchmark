@@ -21,6 +21,18 @@ POSITIONS_PATH = os.path.join(HERE, "generated_positions.json")
 BASELINE_DIR = os.path.join(HERE, "baseline_results")
 COMMUNITY_DIR = os.path.join(HERE, "community_results")
 
+REASONING_BUCKETS = {
+    "Immediate Action": ["P1 Win in 1", "P2 Win in 1 (Block)"],
+    "Short Planning": ["Late Game", "P1 Win in 3", "P2 Win in 3"],
+    "Long Planning": ["P1 Win in 5", "P2 Win in 5", "Early Game"],
+}
+
+
+def bucket_avg(metrics, cats):
+    cat_to_acc = dict(zip(metrics["categories"], metrics["category_accuracies"]))
+    vals = [cat_to_acc[c] for c in cats if c in cat_to_acc]
+    return sum(vals) / len(vals) if vals else 0.0
+
 
 st.set_page_config(page_title="Connect 4 LLM Benchmark", layout="wide")
 st.title("Connect 4 LLM Benchmark")
@@ -85,18 +97,26 @@ run_btn = st.sidebar.button("Run benchmark", type="primary",
 baselines = load_baselines(BASELINE_DIR)
 community = load_community(COMMUNITY_DIR)
 
-with st.expander("Existing baselines & community runs", expanded=False):
+with st.expander("Existing baselines & community runs", expanded=True):
     rows = []
     for entry in baselines + community:
         m = entry["metrics"]
         rows.append({
             "Model": m["model"],
             "Kind": entry["kind"],
-            "Overall accuracy": f"{m['overall_accuracy']:.1%}",
+            "Overall": f"{m['overall_accuracy']:.1%}",
+            "Immediate Action": f"{bucket_avg(m, REASONING_BUCKETS['Immediate Action']):.1%}",
+            "Short Planning": f"{bucket_avg(m, REASONING_BUCKETS['Short Planning']):.1%}",
+            "Long Planning": f"{bucket_avg(m, REASONING_BUCKETS['Long Planning']):.1%}",
             "Correct / total": f"{m['total_correct']}/{m['total_positions']}",
         })
     if rows:
         st.dataframe(rows, width="stretch", hide_index=True)
+        st.caption(
+            "Reasoning buckets: **Immediate Action** = Win/Block in 1 · "
+            "**Short Planning** = Late Game + Win in 3 · "
+            "**Long Planning** = Win in 5 + Early Game."
+        )
     else:
         st.info("No results loaded yet.")
 
@@ -239,24 +259,13 @@ if run_btn:
         "**Immediate Action** (Win/Block in 1) · **Short Planning** "
         "(Late Game, Win in 3) · **Long Planning** (Win in 5, Early Game)."
     )
-    REASONING_BUCKETS = {
-        "Immediate\nAction": ["P1 Win in 1", "P2 Win in 1 (Block)"],
-        "Short\nPlanning": ["Late Game", "P1 Win in 3", "P2 Win in 3"],
-        "Long\nPlanning": ["P1 Win in 5", "P2 Win in 5", "Early Game"],
-    }
-
-    def _bucket_avg(metrics, cats):
-        cat_to_acc = dict(zip(metrics["categories"], metrics["category_accuracies"]))
-        vals = [cat_to_acc[c] for c in cats if c in cat_to_acc]
-        return sum(vals) / len(vals) if vals else 0.0
-
     fig, ax = plt.subplots(figsize=(9, 4.5))
     bucket_labels = list(REASONING_BUCKETS.keys())
     bx = np.arange(len(bucket_labels))
     bwidth = 0.8 / max(len(deduped), 1)
     for i, m in enumerate(deduped):
         offset = (i - (len(deduped) - 1) / 2) * bwidth
-        vals = [_bucket_avg(m, REASONING_BUCKETS[b]) for b in bucket_labels]
+        vals = [bucket_avg(m, REASONING_BUCKETS[b]) for b in bucket_labels]
         color = "#ff6b35" if m["model"] == display_name else None
         bars = ax.bar(bx + offset, vals, bwidth, label=m["model"], color=color)
         for bar, v in zip(bars, vals):
