@@ -1,0 +1,2953 @@
+{
+  "total_correct": 46,
+  "total_positions": 120,
+  "overall_accuracy": 0.38333333333333336,
+  "category_results": {
+    "P1 Win in 1": {
+      "correct": 4,
+      "total": 15,
+      "accuracy": 0.26666666666666666,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "4": 1,
+            "0": 2,
+            "2": 3,
+            "1": 4,
+            "3": 5,
+            "5": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "4": 20850,
+            "0": 10500,
+            "2": 750,
+            "1": 650,
+            "3": 500,
+            "5": 350,
+            "6": 150
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical four-in-a-row for Player 1, winning the game immediately."
+        },
+        {
+          "position_index": 1,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "6": 1,
+            "1": 2,
+            "3": 3,
+            "4": 4,
+            "0": 5,
+            "2": 6
+          },
+          "raw_scores": {
+            "6": 9950,
+            "1": 9650,
+            "3": 500,
+            "4": 200,
+            "0": 150,
+            "2": 100
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with my existing pieces in column 3 while blocking opponent's potential diagonal win from their piece at (row 2, column 4)."
+        },
+        {
+          "position_index": 2,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "4": 1,
+            "2": 2,
+            "0": 3,
+            "3": 4,
+            "6": 5
+          },
+          "raw_scores": {
+            "4": 20600,
+            "2": 10500,
+            "0": 9900,
+            "3": 750,
+            "6": -150
+          },
+          "rationale": "Placing at column 3 creates a vertical threat of three 1s that can win on the next turn while also blocking potential diagonal threats from Player 2."
+        },
+        {
+          "position_index": 3,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 3,
+            "5": 4,
+            "6": 5,
+            "0": 6,
+            "1": 7
+          },
+          "raw_scores": {
+            "3": 9400,
+            "2": 9100,
+            "4": -150,
+            "5": -600,
+            "6": -1000,
+            "0": -1050,
+            "1": -1200
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with my existing pieces in rows 2 and 3 while blocking potential diagonal threats from the opponent."
+        },
+        {
+          "position_index": 4,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "0": 1,
+            "2": 2,
+            "4": 2,
+            "3": 4,
+            "1": 5,
+            "5": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "0": 9500,
+            "2": -100,
+            "4": -100,
+            "3": -200,
+            "1": -250,
+            "5": -450,
+            "6": -700
+          },
+          "rationale": "Placing in column 3 creates two potential winning lines (horizontal and diagonal) while blocking opponent's immediate threats."
+        },
+        {
+          "position_index": 5,
+          "category": "P1 Win in 1",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "0": 2,
+            "1": 3,
+            "5": 4,
+            "4": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "2": 11600,
+            "0": 11400,
+            "1": 11050,
+            "5": 10400,
+            "4": 10250,
+            "6": 10150
+          },
+          "rationale": "Placing at column 2 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 6,
+          "category": "P1 Win in 1",
+          "chosen_move": 2,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "2": 2,
+            "0": 3,
+            "1": 3,
+            "6": 5
+          },
+          "raw_scores": {
+            "4": 11300,
+            "2": 11150,
+            "0": 11100,
+            "1": 11100,
+            "6": 10600
+          },
+          "rationale": "Placing in column 2 creates a vertical threat while blocking opponent's potential diagonal win from column 3."
+        },
+        {
+          "position_index": 7,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "2": 1,
+            "6": 2,
+            "1": 3,
+            "5": 4,
+            "3": 4,
+            "0": 6,
+            "4": 6
+          },
+          "raw_scores": {
+            "2": 10350,
+            "6": 9800,
+            "1": 400,
+            "5": 250,
+            "3": 250,
+            "0": 0,
+            "4": 0
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with three 1s in a row while also blocking opponent's potential diagonal win from their 2s."
+        },
+        {
+          "position_index": 8,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 2,
+            "4": 3,
+            "2": 4,
+            "0": 4,
+            "6": 6
+          },
+          "raw_scores": {
+            "3": 10950,
+            "5": 10350,
+            "4": 300,
+            "2": 200,
+            "0": 200,
+            "6": -150
+          },
+          "rationale": "Placing in column 3 creates a winning threat by completing a diagonal of four '1's from the bottom-left to top-right."
+        },
+        {
+          "position_index": 9,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "2": 3,
+            "1": 4,
+            "6": 5,
+            "5": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "3": 9800,
+            "4": 9100,
+            "2": -850,
+            "1": -900,
+            "6": -1250,
+            "5": -1350,
+            "0": -1400
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 10,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "6": 1,
+            "3": 2,
+            "2": 3,
+            "5": 4,
+            "1": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "6": 9550,
+            "3": 200,
+            "2": 100,
+            "5": 50,
+            "1": -100,
+            "0": -250
+          },
+          "rationale": "Placing in column 3 creates a vertical threat with my existing pieces while blocking potential diagonal wins for the opponent."
+        },
+        {
+          "position_index": 11,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "5": 1,
+            "1": 2,
+            "2": 3,
+            "3": 4,
+            "6": 5,
+            "0": 6,
+            "4": 7
+          },
+          "raw_scores": {
+            "5": 9900,
+            "1": 9550,
+            "2": -150,
+            "3": -300,
+            "6": -600,
+            "0": -750,
+            "4": -850
+          },
+          "rationale": "Placing at column 3 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 12,
+          "category": "P1 Win in 1",
+          "chosen_move": 4,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "0": 3,
+            "6": 4,
+            "1": 5
+          },
+          "raw_scores": {
+            "5": 11500,
+            "4": 11350,
+            "0": 10000,
+            "6": 9800,
+            "1": -8850
+          },
+          "rationale": "Placing in column 4 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 13,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "1": 1,
+            "5": 2,
+            "3": 3,
+            "2": 4,
+            "0": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "1": 10400,
+            "5": 10250,
+            "3": 10200,
+            "2": 9850,
+            "0": 9300,
+            "6": 9100
+          },
+          "rationale": "Placing at column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 14,
+          "category": "P1 Win in 1",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "3": 2,
+            "4": 3,
+            "2": 4,
+            "0": 5,
+            "1": 6,
+            "6": 6
+          },
+          "raw_scores": {
+            "5": 9600,
+            "3": 9450,
+            "4": -150,
+            "2": -700,
+            "0": -900,
+            "1": -950,
+            "6": -950
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent diagonals."
+        }
+      ]
+    },
+    "P2 Win in 1 (Block)": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "4": 2,
+            "1": 3,
+            "0": 4,
+            "5": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "2": 10200,
+            "4": -9450,
+            "1": -10150,
+            "0": -10200,
+            "5": -10350,
+            "6": -10400
+          },
+          "rationale": "Placing at column 2 creates a vertical threat with three 1s in a row while also blocking opponent's potential diagonal win from column 3."
+        },
+        {
+          "position_index": 1,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "4": 1,
+            "2": 2,
+            "1": 3,
+            "0": 4,
+            "3": 5,
+            "6": 5
+          },
+          "raw_scores": {
+            "4": -500,
+            "2": -11050,
+            "1": -11100,
+            "0": -11200,
+            "3": -11350,
+            "6": -11350
+          },
+          "rationale": "Placing at column 3 creates a vertical threat in column 4 while blocking potential opponent diagonals and setting up future winning opportunities."
+        },
+        {
+          "position_index": 2,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "2": 3,
+            "1": 4,
+            "0": 5,
+            "5": 5,
+            "6": 7
+          },
+          "raw_scores": {
+            "4": -450,
+            "3": -10150,
+            "2": -11050,
+            "1": -11200,
+            "0": -11500,
+            "5": -11500,
+            "6": -11550
+          },
+          "rationale": "Placing at column 3 creates a vertical threat while blocking opponent's potential diagonal win from their position at (row 1, col 4)."
+        },
+        {
+          "position_index": 3,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "0": 1,
+            "6": 2,
+            "3": 3,
+            "2": 4,
+            "4": 5
+          },
+          "raw_scores": {
+            "0": -750,
+            "6": -10450,
+            "3": -10500,
+            "2": -10600,
+            "4": -20900
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking potential opponent diagonals and setting up future winning opportunities."
+        },
+        {
+          "position_index": 4,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "2": 3,
+            "3": 4,
+            "0": 5,
+            "6": 6,
+            "1": 7
+          },
+          "raw_scores": {
+            "5": -950,
+            "4": -10100,
+            "2": -10150,
+            "3": -10700,
+            "0": -10800,
+            "6": -11100,
+            "1": -21100
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 5,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 4,
+          "optimal_move": 2,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "2": 1,
+            "1": 2,
+            "4": 3,
+            "6": 4,
+            "5": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "2": 11250,
+            "1": -9300,
+            "4": -9400,
+            "6": -9450,
+            "5": -9700,
+            "0": -9750
+          },
+          "rationale": "Placing at column 4 creates a vertical threat with existing '1's in columns 3 and 4 while blocking opponent's potential diagonal win from column 2."
+        },
+        {
+          "position_index": 6,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "4": 3,
+            "0": 4,
+            "2": 4,
+            "5": 4,
+            "6": 4
+          },
+          "raw_scores": {
+            "3": 10000,
+            "1": -10700,
+            "4": -10800,
+            "0": -10900,
+            "2": -10900,
+            "5": -10900,
+            "6": -10900
+          },
+          "rationale": "Placing at column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 7,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "3": 2,
+            "0": 3,
+            "1": 3,
+            "4": 3,
+            "5": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "2": 9900,
+            "3": -10200,
+            "0": -10350,
+            "1": -10350,
+            "4": -10350,
+            "5": -10400,
+            "6": -10450
+          },
+          "rationale": "Placing a piece in column 2 creates a vertical threat that can lead to a win and blocks potential opponent advances in the center."
+        },
+        {
+          "position_index": 8,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "2": 3,
+            "1": 4,
+            "0": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 700,
+            "3": -10050,
+            "2": -10100,
+            "1": -10450,
+            "0": -10500,
+            "6": -10700
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 9,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 2,
+            "1": 4,
+            "0": 4,
+            "5": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": -150,
+            "2": -9800,
+            "4": -9800,
+            "1": -9850,
+            "0": -9850,
+            "5": -10050,
+            "6": -10150
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 10,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "6": 1,
+            "5": 2,
+            "3": 3,
+            "2": 4,
+            "0": 5,
+            "4": 5
+          },
+          "raw_scores": {
+            "6": -550,
+            "5": -9150,
+            "3": -9250,
+            "2": -9550,
+            "0": -9600,
+            "4": -9600
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 11,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 5,
+          "optimal_move": 1,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "1": 1,
+            "0": 2,
+            "5": 3
+          },
+          "raw_scores": {
+            "1": -10350,
+            "0": -10750,
+            "5": -11100
+          },
+          "rationale": "Placing in column 5 creates a winning threat by completing a diagonal of three '1's while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 12,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 2,
+            "2": 3,
+            "4": 4,
+            "1": 4,
+            "6": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "3": -150,
+            "5": -11000,
+            "2": -11050,
+            "4": -11450,
+            "1": -11450,
+            "6": -11500,
+            "0": -11750
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 13,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "5": 1,
+            "2": 2,
+            "3": 3,
+            "1": 3,
+            "6": 5,
+            "0": 6,
+            "4": 6
+          },
+          "raw_scores": {
+            "5": -9950,
+            "2": -10400,
+            "3": -10800,
+            "1": -10800,
+            "6": -10850,
+            "0": -11300,
+            "4": -11300
+          },
+          "rationale": "Placing in column 3 creates a vertical threat with my existing pieces while blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 14,
+          "category": "P2 Win in 1 (Block)",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "3": 2,
+            "2": 4,
+            "1": 5,
+            "0": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "5": -550,
+            "4": -9650,
+            "3": -9650,
+            "2": -9750,
+            "1": -9800,
+            "0": -10100,
+            "6": -10150
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        }
+      ]
+    },
+    "P1 Win in 3": {
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "2": 3,
+            "0": 4,
+            "6": 4
+          },
+          "raw_scores": {
+            "3": 10400,
+            "1": 9800,
+            "2": 9750,
+            "0": -400,
+            "6": -400
+          },
+          "rationale": "Placing at column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 1,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "2": 3,
+            "5": 4,
+            "0": 5,
+            "6": 6,
+            "1": 7
+          },
+          "raw_scores": {
+            "4": 10600,
+            "3": -700,
+            "2": -750,
+            "5": -950,
+            "0": -1050,
+            "6": -1150,
+            "1": -9900
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 2,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "1": 1,
+            "0": 2,
+            "3": 3,
+            "2": 4,
+            "6": 5,
+            "4": 6
+          },
+          "raw_scores": {
+            "1": 9200,
+            "0": -750,
+            "3": -950,
+            "2": -1450,
+            "6": -10250,
+            "4": -19950
+          },
+          "rationale": "Placing in column 3 creates two immediate winning threats (horizontal and diagonal) that the opponent cannot block with a single move."
+        },
+        {
+          "position_index": 3,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 3,
+            "6": 4,
+            "5": 5,
+            "1": 6,
+            "0": 6
+          },
+          "raw_scores": {
+            "3": 10350,
+            "2": 9950,
+            "4": -50,
+            "6": -150,
+            "5": -250,
+            "1": -300,
+            "0": -300
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 4,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "6": 2,
+            "5": 3,
+            "2": 4,
+            "0": 5,
+            "1": 6,
+            "4": 7
+          },
+          "raw_scores": {
+            "3": 10350,
+            "6": 9450,
+            "5": -100,
+            "2": -450,
+            "0": -600,
+            "1": -1100,
+            "4": -9500
+          },
+          "rationale": "Placing in column 3 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 5,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 2,
+            "2": 3,
+            "4": 4,
+            "1": 5,
+            "0": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": 10600,
+            "5": 10350,
+            "2": 900,
+            "4": 600,
+            "1": 300,
+            "0": 100,
+            "6": -250
+          },
+          "rationale": "Placing a piece in column 3 creates a winning threat by completing a horizontal four-in-a-row with existing pieces in columns 1, 2, and 4."
+        },
+        {
+          "position_index": 6,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "2": 1,
+            "3": 2,
+            "5": 3,
+            "1": 4,
+            "0": 5,
+            "6": 5,
+            "4": 7
+          },
+          "raw_scores": {
+            "2": 9550,
+            "3": -50,
+            "5": -150,
+            "1": -250,
+            "0": -550,
+            "6": -550,
+            "4": -650
+          },
+          "rationale": "Placing in column 3 creates a vertical threat of three in a row for Player 1, forcing the opponent to block and setting up potential future wins."
+        },
+        {
+          "position_index": 7,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "5": 2,
+            "2": 4,
+            "1": 5,
+            "0": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "4": 9500,
+            "3": 100,
+            "5": 100,
+            "2": -650,
+            "1": -900,
+            "0": -1150,
+            "6": -1300
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 8,
+          "category": "P1 Win in 3",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "4": 1,
+            "6": 3,
+            "0": 4
+          },
+          "raw_scores": {
+            "2": 10400,
+            "4": 10400,
+            "6": 9700,
+            "0": 700
+          },
+          "rationale": "Placing in column 2 creates a vertical threat of three in a row and blocks opponent's potential diagonal win."
+        },
+        {
+          "position_index": 9,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "4": 1,
+            "2": 2,
+            "1": 3,
+            "3": 4,
+            "0": 4,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 18900,
+            "2": 350,
+            "1": 250,
+            "3": 0,
+            "0": 0,
+            "6": -10150
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 10,
+          "category": "P1 Win in 3",
+          "chosen_move": 2,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "2": 2,
+            "1": 2,
+            "6": 4,
+            "0": 5
+          },
+          "raw_scores": {
+            "5": 10500,
+            "2": 450,
+            "1": 450,
+            "6": 250,
+            "0": 100
+          },
+          "rationale": "Placing at column 2 creates a vertical threat with existing '1's while blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 11,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "4": 1,
+            "1": 2,
+            "3": 3,
+            "2": 4,
+            "0": 5,
+            "6": 5,
+            "5": 7
+          },
+          "raw_scores": {
+            "4": 9600,
+            "1": 9200,
+            "3": 50,
+            "2": -50,
+            "0": -500,
+            "6": -500,
+            "5": -600
+          },
+          "rationale": "Placing at column 3 creates a potential winning threat by aligning with existing pieces while blocking opponent's immediate vertical or diagonal opportunities."
+        },
+        {
+          "position_index": 12,
+          "category": "P1 Win in 3",
+          "chosen_move": 2,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "2": 2,
+            "0": 4,
+            "6": 5
+          },
+          "raw_scores": {
+            "5": 10050,
+            "4": 9850,
+            "2": 9850,
+            "0": -100,
+            "6": -600
+          },
+          "rationale": "Placing in column 2 creates a vertical threat of three 1s that can win on the next turn while also blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 13,
+          "category": "P1 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "1": 1,
+            "3": 1,
+            "6": 3,
+            "4": 4,
+            "5": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "1": 10150,
+            "3": 10150,
+            "6": 250,
+            "4": 100,
+            "5": -50,
+            "0": -100
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 14,
+          "category": "P1 Win in 3",
+          "chosen_move": 4,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "6": 3,
+            "1": 4,
+            "0": 4
+          },
+          "raw_scores": {
+            "5": 9900,
+            "4": -200,
+            "6": -300,
+            "1": -550,
+            "0": -550
+          },
+          "rationale": "Placing in column 4 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        }
+      ]
+    },
+    "P2 Win in 3": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "6": 1,
+            "0": 2,
+            "3": 3
+          },
+          "raw_scores": {
+            "6": -9100,
+            "0": -9300,
+            "3": -9450
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking potential opponent diagonals and maintaining central board control."
+        },
+        {
+          "position_index": 1,
+          "category": "P2 Win in 3",
+          "chosen_move": 6,
+          "optimal_move": 0,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "0": 1,
+            "1": 1,
+            "6": 1
+          },
+          "raw_scores": {
+            "0": -10050,
+            "1": -10050,
+            "6": -10050
+          },
+          "rationale": "Placing in column 6 creates a vertical threat while blocking opponent's potential diagonal win from column 5."
+        },
+        {
+          "position_index": 2,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "3": 1,
+            "1": 3,
+            "5": 4,
+            "4": 5,
+            "6": 5,
+            "0": 7
+          },
+          "raw_scores": {
+            "2": -10550,
+            "3": -10550,
+            "1": -10600,
+            "5": -10750,
+            "4": -10800,
+            "6": -10800,
+            "0": -11200
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that could lead to multiple winning opportunities while also blocking potential opponent advances in the center."
+        },
+        {
+          "position_index": 3,
+          "category": "P2 Win in 3",
+          "chosen_move": 2,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "2": 2,
+            "1": 4,
+            "0": 4,
+            "6": 6
+          },
+          "raw_scores": {
+            "5": -9400,
+            "4": -9600,
+            "2": -9600,
+            "1": -9800,
+            "0": -9800,
+            "6": -10500
+          },
+          "rationale": "Placing a piece in column 2 creates a vertical threat of three in a row and blocks opponent's potential diagonal win."
+        },
+        {
+          "position_index": 4,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "2": 1,
+            "5": 1,
+            "1": 3,
+            "3": 4,
+            "6": 5,
+            "0": 6,
+            "4": 6
+          },
+          "raw_scores": {
+            "2": -9950,
+            "5": -9950,
+            "1": -10150,
+            "3": -10400,
+            "6": -10450,
+            "0": -10500,
+            "4": -10500
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 5,
+          "category": "P2 Win in 3",
+          "chosen_move": 4,
+          "optimal_move": 6,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "6": 1,
+            "0": 2,
+            "4": 3
+          },
+          "raw_scores": {
+            "6": -9000,
+            "0": -9750,
+            "4": -9850
+          },
+          "rationale": "Placing at column 4 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 6,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "5": 1,
+            "2": 2,
+            "4": 2,
+            "1": 2,
+            "3": 5,
+            "6": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "5": -10750,
+            "2": -11050,
+            "4": -11050,
+            "1": -11050,
+            "3": -11150,
+            "6": -11250,
+            "0": -11300
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking opponent's potential diagonal win from their position at (row 2, column 2)."
+        },
+        {
+          "position_index": 7,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "3": 3,
+            "2": 4,
+            "6": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "5": -8850,
+            "4": -9000,
+            "3": -9650,
+            "2": -9700,
+            "6": -9950,
+            "0": -10300
+          },
+          "rationale": "Placing in column 3 creates two potential winning lines (vertical and diagonal) while blocking opponent's immediate threats."
+        },
+        {
+          "position_index": 8,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "0": 3,
+            "6": 4,
+            "2": 5
+          },
+          "raw_scores": {
+            "3": -10950,
+            "4": -11050,
+            "0": -11350,
+            "6": -11500,
+            "2": -11650
+          },
+          "rationale": "Placing at column 3 creates a vertical threat while blocking opponent's potential diagonal win from column 2."
+        },
+        {
+          "position_index": 9,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 2,
+            "4": 3,
+            "6": 4,
+            "0": 5,
+            "2": 6
+          },
+          "raw_scores": {
+            "3": -9150,
+            "5": -9550,
+            "4": -10000,
+            "6": -10050,
+            "0": -10100,
+            "2": -10950
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 10,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "0": 1,
+            "6": 2,
+            "2": 3,
+            "4": 4,
+            "3": 5
+          },
+          "raw_scores": {
+            "0": -9750,
+            "6": -10300,
+            "2": -11050,
+            "4": -11100,
+            "3": -29800
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 11,
+          "category": "P2 Win in 3",
+          "chosen_move": 4,
+          "optimal_move": 4,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "4": 1,
+            "1": 2,
+            "0": 2,
+            "6": 4,
+            "2": 5
+          },
+          "raw_scores": {
+            "4": -10050,
+            "1": -20400,
+            "0": -20400,
+            "6": -20650,
+            "2": -20900
+          },
+          "rationale": "Placing in column 4 creates a vertical threat with three 1s already in that column while also blocking opponent's potential diagonal win from column 3."
+        },
+        {
+          "position_index": 12,
+          "category": "P2 Win in 3",
+          "chosen_move": 2,
+          "optimal_move": 1,
+          "rank_distance": 6,
+          "raw_rankings": {
+            "1": 1,
+            "6": 2,
+            "3": 3,
+            "4": 4,
+            "5": 4,
+            "0": 4,
+            "2": 7
+          },
+          "raw_scores": {
+            "1": -9750,
+            "6": -9850,
+            "3": -10250,
+            "4": -10500,
+            "5": -10500,
+            "0": -10500,
+            "2": -11100
+          },
+          "rationale": "Placing at column 2 creates a vertical threat with existing '1's in rows 2-5 while blocking opponent's potential diagonal win from column 3."
+        },
+        {
+          "position_index": 13,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "2": 1,
+            "0": 2,
+            "5": 3,
+            "4": 4,
+            "3": 5,
+            "6": 6,
+            "1": 7
+          },
+          "raw_scores": {
+            "2": -9500,
+            "0": -9600,
+            "5": -10150,
+            "4": -10300,
+            "3": -10450,
+            "6": -10550,
+            "1": -10750
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that could lead to multiple winning opportunities while also blocking potential opponent advances in the center."
+        },
+        {
+          "position_index": 14,
+          "category": "P2 Win in 3",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "0": 1,
+            "3": 2,
+            "5": 3
+          },
+          "raw_scores": {
+            "0": -29300,
+            "3": -29600,
+            "5": -39250
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        }
+      ]
+    },
+    "P1 Win in 5": {
+      "correct": 6,
+      "total": 15,
+      "accuracy": 0.4,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 3,
+            "5": 4,
+            "0": 5,
+            "1": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": 150,
+            "2": -50,
+            "4": -100,
+            "5": -200,
+            "0": -300,
+            "1": -450,
+            "6": -600
+          },
+          "rationale": "Placing in column 3 creates a vertical threat in column 0-1-2-3 while blocking potential opponent diagonals and establishing board control."
+        },
+        {
+          "position_index": 1,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "2": 1,
+            "3": 2,
+            "5": 2,
+            "6": 4,
+            "4": 5,
+            "1": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "2": 50,
+            "3": -50,
+            "5": -50,
+            "6": -200,
+            "4": -300,
+            "1": -350,
+            "0": -500
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 2,
+          "category": "P1 Win in 5",
+          "chosen_move": 4,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "4": 2,
+            "0": 3,
+            "2": 3,
+            "6": 3
+          },
+          "raw_scores": {
+            "5": 400,
+            "4": 350,
+            "0": 250,
+            "2": 250,
+            "6": 250
+          },
+          "rationale": "Placing at column 4 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 3,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "6": 1,
+            "3": 2,
+            "0": 2,
+            "1": 4,
+            "5": 5
+          },
+          "raw_scores": {
+            "6": 200,
+            "3": 150,
+            "0": 150,
+            "1": 0,
+            "5": -150
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that could lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 4,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "5": 3,
+            "4": 4,
+            "6": 5,
+            "0": 6,
+            "2": 7
+          },
+          "raw_scores": {
+            "3": 250,
+            "1": -350,
+            "5": -850,
+            "4": -1000,
+            "6": -1150,
+            "0": -1200,
+            "2": -1250
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with my existing pieces in rows 4 and 5 while also blocking potential diagonal threats from the opponent."
+        },
+        {
+          "position_index": 5,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "1": 1,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "0": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "1": 50,
+            "2": 50,
+            "3": 50,
+            "4": 50,
+            "0": -250,
+            "6": -400
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 6,
+          "category": "P1 Win in 5",
+          "chosen_move": 4,
+          "optimal_move": 4,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "4": 1,
+            "5": 2,
+            "0": 3,
+            "1": 3,
+            "6": 5
+          },
+          "raw_scores": {
+            "4": 0,
+            "5": -350,
+            "0": -550,
+            "1": -550,
+            "6": -600
+          },
+          "rationale": "Placing at column 4 creates a vertical threat with my existing pieces in that column while also blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 7,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "3": 1,
+            "0": 3,
+            "5": 3,
+            "6": 5,
+            "1": 6
+          },
+          "raw_scores": {
+            "2": -50,
+            "3": -50,
+            "0": -450,
+            "5": -450,
+            "6": -550,
+            "1": -10350
+          },
+          "rationale": "Placing at column 3 creates a winning threat by completing a diagonal with existing pieces while also blocking opponent's potential vertical win."
+        },
+        {
+          "position_index": 8,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "2": 1,
+            "4": 2,
+            "6": 2,
+            "3": 4,
+            "1": 5,
+            "5": 6,
+            "0": 6
+          },
+          "raw_scores": {
+            "2": 650,
+            "4": 500,
+            "6": 500,
+            "3": 450,
+            "1": 400,
+            "5": 200,
+            "0": 200
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 9,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "2": 1,
+            "0": 2,
+            "3": 2,
+            "6": 2,
+            "1": 5,
+            "4": 6
+          },
+          "raw_scores": {
+            "2": 300,
+            "0": 250,
+            "3": 250,
+            "6": 250,
+            "1": 200,
+            "4": -100
+          },
+          "rationale": "Placing at column 3 creates a vertical threat of three in a row and blocks potential opponent wins, maximizing immediate strategic advantage."
+        },
+        {
+          "position_index": 10,
+          "category": "P1 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 4,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "4": 1,
+            "1": 2,
+            "2": 3,
+            "5": 3,
+            "0": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 450,
+            "1": 150,
+            "2": 100,
+            "5": 100,
+            "0": -150,
+            "6": -250
+          },
+          "rationale": "Placing in column 2 creates a vertical threat of three in a row and blocks potential opponent wins."
+        },
+        {
+          "position_index": 11,
+          "category": "P1 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 4,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "4": 1,
+            "1": 2,
+            "5": 2,
+            "0": 4,
+            "2": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 1100,
+            "1": 950,
+            "5": 950,
+            "0": 650,
+            "2": -8300,
+            "6": -8450
+          },
+          "rationale": "Placing in column 2 blocks opponent's potential vertical win in column 3 and creates a diagonal threat."
+        },
+        {
+          "position_index": 12,
+          "category": "P1 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 5,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "5": 1,
+            "1": 2,
+            "4": 3,
+            "2": 3,
+            "6": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "5": 650,
+            "1": 200,
+            "4": 150,
+            "2": 150,
+            "6": 0,
+            "0": -100
+          },
+          "rationale": "Placing at column 2 creates a vertical threat of three in a row and blocks potential opponent wins."
+        },
+        {
+          "position_index": 13,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "4": 1,
+            "2": 2,
+            "3": 3,
+            "1": 4,
+            "6": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "4": -500,
+            "2": -850,
+            "3": -1000,
+            "1": -1400,
+            "6": -1650,
+            "0": -2150
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 14,
+          "category": "P1 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 2,
+            "4": 3,
+            "6": 4,
+            "2": 5,
+            "1": 6,
+            "0": 6
+          },
+          "raw_scores": {
+            "3": 200,
+            "5": 150,
+            "4": -150,
+            "6": -300,
+            "2": -450,
+            "1": -650,
+            "0": -650
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        }
+      ]
+    },
+    "P2 Win in 5": {
+      "correct": 4,
+      "total": 15,
+      "accuracy": 0.26666666666666666,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "P2 Win in 5",
+          "chosen_move": 4,
+          "optimal_move": 0,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "0": 1,
+            "6": 1,
+            "1": 3,
+            "4": 4
+          },
+          "raw_scores": {
+            "0": 50,
+            "6": 50,
+            "1": 0,
+            "4": -50
+          },
+          "rationale": "Placing at column 4 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 1,
+          "category": "P2 Win in 5",
+          "chosen_move": 4,
+          "optimal_move": 4,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "4": 1,
+            "5": 2,
+            "2": 3,
+            "0": 4,
+            "6": 5
+          },
+          "raw_scores": {
+            "4": -1000,
+            "5": -10400,
+            "2": -10550,
+            "0": -11000,
+            "6": -11250
+          },
+          "rationale": "Placing in column 4 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 2,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "1": 1,
+            "0": 2,
+            "3": 3,
+            "4": 4,
+            "6": 5,
+            "2": 6
+          },
+          "raw_scores": {
+            "1": -500,
+            "0": -1000,
+            "3": -9050,
+            "4": -9300,
+            "6": -10000,
+            "2": -10900
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking opponent's potential diagonal win from column 4."
+        },
+        {
+          "position_index": 3,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "1": 1,
+            "0": 2,
+            "4": 3,
+            "3": 4,
+            "6": 5,
+            "2": 6
+          },
+          "raw_scores": {
+            "1": -900,
+            "0": -1650,
+            "4": -9200,
+            "3": -10000,
+            "6": -10400,
+            "2": -10700
+          },
+          "rationale": "Placing at column 3 creates a vertical threat in column 5 while blocking potential diagonal threats from the opponent."
+        },
+        {
+          "position_index": 4,
+          "category": "P2 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 3,
+          "rank_distance": 4,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "6": 3,
+            "0": 4,
+            "2": 5
+          },
+          "raw_scores": {
+            "3": -150,
+            "4": -500,
+            "6": -650,
+            "0": -750,
+            "2": -19500
+          },
+          "rationale": "Placing in column 2 creates a vertical threat that can lead to a win and blocks potential opponent threats in adjacent columns."
+        },
+        {
+          "position_index": 5,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "6": 1,
+            "0": 2,
+            "3": 3
+          },
+          "raw_scores": {
+            "6": -50,
+            "0": -9800,
+            "3": -19600
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 6,
+          "category": "P2 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "6": 2,
+            "5": 3
+          },
+          "raw_scores": {
+            "2": -700,
+            "6": -1150,
+            "5": -10300
+          },
+          "rationale": "Placing in column 2 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 7,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "0": 1,
+            "6": 2,
+            "4": 3,
+            "3": 4,
+            "2": 5
+          },
+          "raw_scores": {
+            "0": -1650,
+            "6": -2000,
+            "4": -10850,
+            "3": -11100,
+            "2": -21050
+          },
+          "rationale": "Placing in column 3 creates a winning threat in the next turn by completing a diagonal while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 8,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "1": 1,
+            "4": 2,
+            "0": 3,
+            "3": 4
+          },
+          "raw_scores": {
+            "1": -250,
+            "4": -300,
+            "0": -500,
+            "3": -10250
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 9,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "3": 2,
+            "2": 2,
+            "6": 4,
+            "0": 5,
+            "1": 6,
+            "4": 7
+          },
+          "raw_scores": {
+            "5": -2100,
+            "3": -10600,
+            "2": -10600,
+            "6": -11100,
+            "0": -11350,
+            "1": -11450,
+            "4": -11600
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with my existing pieces in rows 4 and 5 while blocking opponent's potential diagonal win from their pieces in columns 2 and 3."
+        },
+        {
+          "position_index": 10,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "2": 1,
+            "3": 2,
+            "4": 3,
+            "6": 4,
+            "0": 5,
+            "5": 6,
+            "1": 6
+          },
+          "raw_scores": {
+            "2": -400,
+            "3": -9700,
+            "4": -9850,
+            "6": -10150,
+            "0": -10350,
+            "5": -10400,
+            "1": -10400
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking potential diagonal wins for the opponent."
+        },
+        {
+          "position_index": 11,
+          "category": "P2 Win in 5",
+          "chosen_move": 2,
+          "optimal_move": 0,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "0": 1,
+            "1": 1,
+            "2": 1,
+            "6": 4
+          },
+          "raw_scores": {
+            "0": -600,
+            "1": -600,
+            "2": -600,
+            "6": -9900
+          },
+          "rationale": "Placing in column 2 creates a winning threat by completing a diagonal of four '1's from (row 2, col 2) to (row 5, col 5), which the opponent cannot block in one move."
+        },
+        {
+          "position_index": 12,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 1,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "1": 1,
+            "0": 2,
+            "3": 3,
+            "6": 4,
+            "5": 5
+          },
+          "raw_scores": {
+            "1": -350,
+            "0": -850,
+            "3": -950,
+            "6": -9850,
+            "5": -10400
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 13,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "3": 1,
+            "5": 3,
+            "4": 4,
+            "0": 5,
+            "1": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "2": -1000,
+            "3": -1000,
+            "5": -1300,
+            "4": -1350,
+            "0": -1550,
+            "1": -1650,
+            "6": -10750
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 14,
+          "category": "P2 Win in 5",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "4": 1,
+            "1": 2,
+            "3": 3,
+            "5": 4,
+            "0": 5,
+            "6": 6,
+            "2": 7
+          },
+          "raw_scores": {
+            "4": -750,
+            "1": -900,
+            "3": -1350,
+            "5": -1450,
+            "0": -1500,
+            "6": -9850,
+            "2": -10650
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that could lead to multiple winning opportunities while also blocking potential opponent advances."
+        }
+      ]
+    },
+    "Early Game": {
+      "correct": 11,
+      "total": 15,
+      "accuracy": 0.7333333333333333,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 3,
+            "5": 3,
+            "1": 5,
+            "6": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "3": -200,
+            "2": -650,
+            "4": -750,
+            "5": -750,
+            "1": -800,
+            "6": -850,
+            "0": -1050
+          },
+          "rationale": "Placing in column 3 creates a vertical threat and blocks potential opponent wins, maximizing future opportunities."
+        },
+        {
+          "position_index": 1,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "5": 1,
+            "2": 3,
+            "1": 4,
+            "6": 5,
+            "0": 6,
+            "4": 7
+          },
+          "raw_scores": {
+            "3": 100,
+            "5": 100,
+            "2": -250,
+            "1": -300,
+            "6": -350,
+            "0": -500,
+            "4": -550
+          },
+          "rationale": "Placing in column 3 creates a vertical threat with two '1's below, forcing the opponent to block and setting up future winning opportunities."
+        },
+        {
+          "position_index": 2,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "3": 1,
+            "1": 3,
+            "4": 4,
+            "6": 5,
+            "5": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "2": -100,
+            "3": -100,
+            "1": -150,
+            "4": -250,
+            "6": -300,
+            "5": -350,
+            "0": -600
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that could lead to a win while also blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 3,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "2": 1,
+            "5": 1,
+            "3": 3,
+            "4": 4,
+            "6": 5,
+            "0": 6,
+            "1": 7
+          },
+          "raw_scores": {
+            "2": -400,
+            "5": -400,
+            "3": -450,
+            "4": -500,
+            "6": -600,
+            "0": -700,
+            "1": -850
+          },
+          "rationale": "Placing at column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 4,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "0": 3,
+            "5": 4,
+            "2": 5,
+            "1": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": -450,
+            "4": -650,
+            "0": -750,
+            "5": -9900,
+            "2": -9950,
+            "1": -10050,
+            "6": -10250
+          },
+          "rationale": "Placing in column 3 creates a vertical threat while blocking potential diagonal wins for the opponent."
+        },
+        {
+          "position_index": 5,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 2,
+            "1": 4,
+            "5": 4,
+            "0": 6,
+            "6": 6
+          },
+          "raw_scores": {
+            "3": -350,
+            "2": -500,
+            "4": -500,
+            "1": -650,
+            "5": -650,
+            "0": -700,
+            "6": -700
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 6,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "5": 3,
+            "6": 4,
+            "0": 5,
+            "2": 6,
+            "4": 7
+          },
+          "raw_scores": {
+            "3": -350,
+            "1": -700,
+            "5": -800,
+            "6": -9700,
+            "0": -9750,
+            "2": -10000,
+            "4": -10100
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat with the existing '1' in row 5, column 2, setting up a potential win on the next turn while blocking immediate opponent threats."
+        },
+        {
+          "position_index": 7,
+          "category": "Early Game",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "5": 2,
+            "4": 3,
+            "3": 4,
+            "0": 5,
+            "1": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "2": -100,
+            "5": -10000,
+            "4": -10150,
+            "3": -10350,
+            "0": -10400,
+            "1": -10500,
+            "6": -10600
+          },
+          "rationale": "Placing at column 2 blocks opponent's potential win at column 2 while setting up a vertical threat in column 3."
+        },
+        {
+          "position_index": 8,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "5": 3,
+            "2": 4,
+            "1": 4,
+            "6": 4,
+            "0": 7
+          },
+          "raw_scores": {
+            "4": -200,
+            "3": -350,
+            "5": -500,
+            "2": -1100,
+            "1": -1100,
+            "6": -1100,
+            "0": -1300
+          },
+          "rationale": "Placing in column 3 creates a vertical threat of three in a row for Player 1, forcing the opponent to block and setting up potential future wins."
+        },
+        {
+          "position_index": 9,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "3": 2,
+            "1": 2,
+            "0": 4,
+            "6": 4,
+            "4": 6,
+            "2": 7
+          },
+          "raw_scores": {
+            "5": 0,
+            "3": -50,
+            "1": -50,
+            "0": -550,
+            "6": -550,
+            "4": -600,
+            "2": -650
+          },
+          "rationale": "Placing in column 3 creates a vertical threat of three in a row for Player 1, forcing the opponent to block and setting up potential future wins."
+        },
+        {
+          "position_index": 10,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "4": 1,
+            "5": 2,
+            "3": 3,
+            "2": 4,
+            "1": 4,
+            "0": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "4": -400,
+            "5": -500,
+            "3": -550,
+            "2": -750,
+            "1": -750,
+            "0": -1100,
+            "6": -1200
+          },
+          "rationale": "Placing at column 3 creates a vertical threat while blocking potential opponent diagonals and maintaining central control."
+        },
+        {
+          "position_index": 11,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "4": 3,
+            "0": 4,
+            "2": 4,
+            "5": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": -600,
+            "1": -800,
+            "4": -900,
+            "0": -950,
+            "2": -950,
+            "5": -1000,
+            "6": -1250
+          },
+          "rationale": "Placing at column 3 creates a vertical threat with my existing pieces while blocking opponent's potential diagonal win."
+        },
+        {
+          "position_index": 12,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "1": 4,
+            "6": 5,
+            "2": 6,
+            "0": 7
+          },
+          "raw_scores": {
+            "3": -50,
+            "4": -200,
+            "5": -250,
+            "1": -300,
+            "6": -350,
+            "2": -400,
+            "0": -850
+          },
+          "rationale": "Placing at column 3 creates a vertical threat of three in a row and blocks potential opponent wins, maximizing immediate strategic advantage."
+        },
+        {
+          "position_index": 13,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 1,
+            "2": 3,
+            "1": 4,
+            "5": 4,
+            "6": 4,
+            "0": 7
+          },
+          "raw_scores": {
+            "3": -700,
+            "4": -700,
+            "2": -800,
+            "1": -850,
+            "5": -850,
+            "6": -850,
+            "0": -900
+          },
+          "rationale": "Placing a piece in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 14,
+          "category": "Early Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "1": 3,
+            "5": 4,
+            "0": 5,
+            "4": 6,
+            "6": 7
+          },
+          "raw_scores": {
+            "3": -50,
+            "2": -200,
+            "1": -250,
+            "5": -300,
+            "0": -350,
+            "4": -400,
+            "6": -850
+          },
+          "rationale": "Placing at column 3 creates a potential winning threat by aligning with existing pieces while blocking opponent's immediate opportunities."
+        }
+      ]
+    },
+    "Late Game": {
+      "correct": 5,
+      "total": 15,
+      "accuracy": 0.3333333333333333,
+      "positions": [
+        {
+          "position_index": 0,
+          "category": "Late Game",
+          "chosen_move": 2,
+          "optimal_move": 2,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "2": 1,
+            "1": 2,
+            "5": 3,
+            "4": 4,
+            "6": 4,
+            "0": 6
+          },
+          "raw_scores": {
+            "2": 10150,
+            "1": -9300,
+            "5": -9650,
+            "4": -9700,
+            "6": -9700,
+            "0": -9950
+          },
+          "rationale": "Placing in column 2 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 1,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "4": 1,
+            "6": 2,
+            "1": 3,
+            "3": 4,
+            "2": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "4": 9850,
+            "6": 9000,
+            "1": 8800,
+            "3": -8950,
+            "2": -10150,
+            "0": -10550
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 2,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "5": 3,
+            "2": 4,
+            "0": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 0,
+            "3": -9400,
+            "5": -9450,
+            "2": -9600,
+            "0": -9750,
+            "6": -10050
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 3,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 3,
+          "raw_rankings": {
+            "4": 1,
+            "0": 2,
+            "5": 2,
+            "3": 4,
+            "1": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": -8800,
+            "0": -10000,
+            "5": -10000,
+            "3": -10150,
+            "1": -10400,
+            "6": -10700
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent advances."
+        },
+        {
+          "position_index": 4,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 2,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "2": 1,
+            "1": 2,
+            "3": 3,
+            "4": 4,
+            "6": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "2": 9050,
+            "1": -9900,
+            "3": -10400,
+            "4": -10750,
+            "6": -10850,
+            "0": -11350
+          },
+          "rationale": "Placing in column 3 creates a winning threat by completing a diagonal with existing pieces while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 5,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 2,
+          "raw_rankings": {
+            "0": 1,
+            "2": 2,
+            "3": 3,
+            "5": 4,
+            "6": 5,
+            "1": 6
+          },
+          "raw_scores": {
+            "0": 8450,
+            "2": -10400,
+            "3": -10700,
+            "5": -11300,
+            "6": -11600,
+            "1": -11750
+          },
+          "rationale": "Placing in column 3 creates a vertical threat with my existing pieces in rows 1-3 while blocking opponent's potential diagonal win from their piece at (row 2, col 2)."
+        },
+        {
+          "position_index": 6,
+          "category": "Late Game",
+          "chosen_move": 2,
+          "optimal_move": 1,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "1": 1,
+            "2": 2,
+            "5": 3,
+            "6": 4,
+            "4": 5,
+            "0": 6
+          },
+          "raw_scores": {
+            "1": 9800,
+            "2": 9450,
+            "5": -11200,
+            "6": -11750,
+            "4": -11800,
+            "0": -12150
+          },
+          "rationale": "Placing at column 2 creates a vertical threat that can lead to a win and blocks potential opponent threats."
+        },
+        {
+          "position_index": 7,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "1": 2,
+            "4": 3,
+            "0": 4,
+            "6": 4,
+            "5": 6
+          },
+          "raw_scores": {
+            "3": 10900,
+            "1": -10350,
+            "4": -10450,
+            "0": -10750,
+            "6": -10750,
+            "5": -10950
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 8,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 0,
+          "rank_distance": 5,
+          "raw_rankings": {
+            "0": 1,
+            "2": 2,
+            "1": 3,
+            "5": 4,
+            "6": 5,
+            "3": 6
+          },
+          "raw_scores": {
+            "0": -8900,
+            "2": -9000,
+            "1": -9150,
+            "5": -9300,
+            "6": -9350,
+            "3": -9400
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win on the next turn while also blocking potential opponent threats."
+        },
+        {
+          "position_index": 9,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "2": 2,
+            "4": 2,
+            "0": 4,
+            "1": 5,
+            "5": 5,
+            "6": 5
+          },
+          "raw_scores": {
+            "3": -9700,
+            "2": -11100,
+            "4": -11100,
+            "0": -11650,
+            "1": -11850,
+            "5": -11850,
+            "6": -11850
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 10,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 5,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "5": 1,
+            "3": 2,
+            "2": 2,
+            "6": 4,
+            "0": 5,
+            "4": 6
+          },
+          "raw_scores": {
+            "5": 20050,
+            "3": 11450,
+            "2": 11450,
+            "6": 11050,
+            "0": 11000,
+            "4": 10850
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while blocking potential opponent advances."
+        },
+        {
+          "position_index": 11,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 2,
+            "5": 3,
+            "6": 4,
+            "0": 5
+          },
+          "raw_scores": {
+            "3": 11000,
+            "4": 9850,
+            "5": -250,
+            "6": -350,
+            "0": -450
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to multiple winning opportunities while also blocking potential opponent diagonals."
+        },
+        {
+          "position_index": 12,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 3,
+          "rank_distance": 0,
+          "raw_rankings": {
+            "3": 1,
+            "4": 1,
+            "0": 3,
+            "5": 4,
+            "1": 5,
+            "6": 6
+          },
+          "raw_scores": {
+            "3": -450,
+            "4": -450,
+            "0": -550,
+            "5": -950,
+            "1": -9850,
+            "6": -10000
+          },
+          "rationale": "Placing in column 3 creates a vertical threat that can lead to a win and blocks potential opponent advances."
+        },
+        {
+          "position_index": 13,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 6,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "6": 1,
+            "3": 2,
+            "4": 3,
+            "2": 4,
+            "0": 5,
+            "5": 6
+          },
+          "raw_scores": {
+            "6": 300,
+            "3": -7700,
+            "4": -7900,
+            "2": -7950,
+            "0": -8800,
+            "5": -8950
+          },
+          "rationale": "Placing in column 3 creates a winning threat by completing a diagonal of four '1's from the bottom-left to top-right."
+        },
+        {
+          "position_index": 14,
+          "category": "Late Game",
+          "chosen_move": 3,
+          "optimal_move": 4,
+          "rank_distance": 1,
+          "raw_rankings": {
+            "4": 1,
+            "3": 2,
+            "2": 3,
+            "1": 4,
+            "5": 5,
+            "0": 6,
+            "6": 6
+          },
+          "raw_scores": {
+            "4": 9850,
+            "3": -10100,
+            "2": -10800,
+            "1": -11100,
+            "5": -11350,
+            "0": -11400,
+            "6": -11400
+          },
+          "rationale": "Placing in column 3 creates a winning threat by completing a diagonal of four '1's from (row 2, col 1) to (row 5, col 4)."
+        }
+      ]
+    }
+  }
+}

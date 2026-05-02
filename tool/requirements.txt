@@ -1,0 +1,5 @@
+streamlit>=1.32
+openai>=1.40
+anthropic>=0.40
+matplotlib>=3.7
+numpy>=1.24

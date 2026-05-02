@@ -1,0 +1,28 @@
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.key
+!.env.example
+
+# OS / editor junk
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Empty/broken stub files left over in this project
+Untitled
+board copy 3.ipynb
+sumbit/board.ipynb
+
+# Local community runs (users on the deployed app generate these)
+tool/community_results/*.json
+!tool/community_results/.gitkeep
