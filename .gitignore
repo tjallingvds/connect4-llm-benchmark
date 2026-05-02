@@ -21,8 +21,8 @@ venv/
 # Empty/broken stub files left over in this project
 Untitled
 board copy 3.ipynb
-sumbit/board.ipynb
+notebook/sumbit/board.ipynb
 
 # Local community runs (users on the deployed app generate these)
-tool/community_results/*.json
-!tool/community_results/.gitkeep
+community_results/*.json
+!community_results/.gitkeep
