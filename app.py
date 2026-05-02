@@ -232,6 +232,44 @@ if run_btn:
         plt.tight_layout()
         st.pyplot(fig)
 
+    # Reasoning-complexity buckets
+    st.markdown("**Performance by reasoning complexity**")
+    st.caption(
+        "Categories grouped by how much lookahead the position demands: "
+        "**Immediate Action** (Win/Block in 1) · **Short Planning** "
+        "(Late Game, Win in 3) · **Long Planning** (Win in 5, Early Game)."
+    )
+    REASONING_BUCKETS = {
+        "Immediate\nAction": ["P1 Win in 1", "P2 Win in 1 (Block)"],
+        "Short\nPlanning": ["Late Game", "P1 Win in 3", "P2 Win in 3"],
+        "Long\nPlanning": ["P1 Win in 5", "P2 Win in 5", "Early Game"],
+    }
+
+    def _bucket_avg(metrics, cats):
+        cat_to_acc = dict(zip(metrics["categories"], metrics["category_accuracies"]))
+        vals = [cat_to_acc[c] for c in cats if c in cat_to_acc]
+        return sum(vals) / len(vals) if vals else 0.0
+
+    fig, ax = plt.subplots(figsize=(9, 4.5))
+    bucket_labels = list(REASONING_BUCKETS.keys())
+    bx = np.arange(len(bucket_labels))
+    bwidth = 0.8 / max(len(deduped), 1)
+    for i, m in enumerate(deduped):
+        offset = (i - (len(deduped) - 1) / 2) * bwidth
+        vals = [_bucket_avg(m, REASONING_BUCKETS[b]) for b in bucket_labels]
+        color = "#ff6b35" if m["model"] == display_name else None
+        bars = ax.bar(bx + offset, vals, bwidth, label=m["model"], color=color)
+        for bar, v in zip(bars, vals):
+            ax.text(bar.get_x() + bar.get_width() / 2, v + 0.01,
+                    f"{v:.0%}", ha="center", va="bottom", fontsize=7)
+    ax.set_xticks(bx)
+    ax.set_xticklabels(bucket_labels)
+    ax.set_ylim(0, 1.12)
+    ax.set_ylabel("Average accuracy")
+    ax.legend(loc="upper right", fontsize=8, ncol=2)
+    plt.tight_layout()
+    st.pyplot(fig)
+
     # Per-category accuracy
     st.markdown("**Per-category accuracy**")
     fig, ax = plt.subplots(figsize=(11, 5))
